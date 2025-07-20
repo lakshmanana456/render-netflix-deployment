@@ -14,7 +14,7 @@ app.listen(5000,function(req,res){
     console.log("server start...");    
 })
 
-app.get("/login",function(req,res){
+app.get("/",function(req,res){
     // res.send("kitechen")
     console.log(req.query.userEmail);
     console.log(req.query.userPassword);
